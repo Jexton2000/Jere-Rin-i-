@@ -1,0 +1,37 @@
+body {
+background-image: url("images/80s.jpg");
+background-color: powderblue;
+font-family:Fantasy;
+font-size: 20px;
+line-height: 20px;
+padding: 10px;
+margin: 10px;
+}
+h1 {
+  color: yellow;
+}
+p {
+  color: orange;
+  border: 5px solid yellow;
+  border-top: #ccc 2px solid;
+  border-right: #ccc 3px solid;
+  border-bottom: #777 2px solid;
+  border-left: #777 3px solid;
+}
+.colortext
+{
+    color: red;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
