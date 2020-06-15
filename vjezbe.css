@@ -1,0 +1,48 @@
+html {
+  background: url(data/pozadine/sky.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+font-family:Fantasy;
+font-size: 20px;
+line-height: 30px;
+padding: 10px;
+margin: 10px;
+}
+h1 {
+  color: blue;
+   }
+p1 {
+  color: black;
+  border: 5px solid yellow;
+  border-top: #ccc 2px solid;
+  border-right: #ccc 3px solid;
+  border-bottom: #777 2px solid;
+  border-left: #777 3px solid;
+}
+.colortext
+{
+    color: red;
+}
+
+img {
+  border: 3px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#galerija li
+{
+    width:260px;
+    display:inline-block;
+}
+#galerija li p
+{
+    margin:20px 0 50px 0;
+}
